@@ -44,6 +44,7 @@
 
   .home {
     align-items: center;
+    margin-top: 3rem;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -102,7 +103,7 @@
 
 @media (max-width: 768px) {
   .home {
-    margin-top: -3rem;
+    margin-top: 3rem;
   }
   .home-img img {
     width: 50vw;
