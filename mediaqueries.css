@@ -101,6 +101,13 @@
 }
 
 @media (max-width: 768px) {
+  .home {
+    margin-top: -3rem;
+  }
+  .home-img img {
+    width: 50vw;
+    height: 40vh;
+  }
   .about-section {
     align-items: center;
     justify-content: center;
@@ -121,8 +128,15 @@
     align-items: center;
   }
 }
-@media (max-width: 520) {
+@media (max-width: 600px) {
   .home-img img {
-    aspect-ratio: 3/6;
+    width: 40vw;
+    height: 25vh;
+  }
+}
+@media (max-width: 480px) {
+  .home-img img {
+    width: 40vw;
+    height: 25vh;
   }
 }
