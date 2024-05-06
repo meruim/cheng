@@ -7,3 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     navbar.classList.toggle("open");
   };
 });
+
+window.addEventListener("scroll", function () {
+  // Call AOS.refresh() to force AOS to reinitialize and reanimate elements
+  AOS.refresh();
+});

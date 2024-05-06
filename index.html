@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <script src="script.js"></script>
   </head>
@@ -40,29 +41,48 @@
     </header>
     <div class="wrapper">
       <section class="home" id="home">
-        <div class="home-content">
+        <div
+          class="home-content"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <h1>Welcome To My Photography Website</h1>
-          <p>
+          <q>
             With each click, a memory is frozen in time, A fleeting moment
             captured, forever mine. In black and white or vibrant hues,
-            Photography unveils life’s different views.
-          </p>
+            Photography unveils life's different views.
+          </q>
         </div>
-        <div class="home-img">
+        <div
+          class="home-img"
+          data-aos="fade-left"
+          data-aos-offset="100"
+          data-aos-duration="1000"
+        >
           <img src="img/hero-img.png" alt="pic" />
         </div>
       </section>
 
       <section class="about-section" id="about-section">
         <!-- about left  -->
-        <div class="about-left">
+        <div
+          class="about-left"
+          class="home-img"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-duration="1000"
+        >
           <img src="img/cheng.jpg" alt="About Img" />
         </div>
         <!-- about right  -->
         <div class="about-right">
-          <div class="about_context">
+          <div
+            class="about_context"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h1>About Me</h1>
-            <p>
+            <p data-aos="fade-up" data-aos-delay="300">
               Hi, I’m Chynn Gwyneth Herradura, a passionate photographer with a
               love for capturing life’s most beautiful moments. I’ve dedicated
               to freezing time through my camera. I strive to create images that
@@ -72,22 +92,38 @@
               memories that will last a lifetime.
             </p>
           </div>
-          <div class="expertise">
+          <div
+            class="expertise"
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
+            <!-- data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-duration="1000" -->
             <h3>My Hobbies</h3>
             <div class="hobbies">
-              <div class="hobbies_box">
+              <div class="hobbies_box" data-aos="fade-down">
                 <span class="expertise-logo">
                   <i class="bx bx-pencil"></i>
                 </span>
                 <p>Writing poetry</p>
               </div>
-              <div class="hobbies_box">
+              <div
+                class="hobbies_box"
+                data-aos="fade-down"
+                data-aos-delay="100"
+              >
                 <span class="expertise-logo">
                   <i class="bx bxs-shapes"></i>
                 </span>
                 <p>Drawing Doodles</p>
               </div>
-              <div class="hobbies_box">
+              <div
+                class="hobbies_box"
+                data-aos="fade-down"
+                data-aos-delay="200"
+              >
                 <span class="expertise-logo">
                   <i class="bx bx-palette"></i>
                 </span>
@@ -95,9 +131,14 @@
               </div>
             </div>
           </div>
-          <div class="fun_fact">
+          <div
+            class="fun_fact"
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-duration="1000"
+          >
             <h3>Fun Fact</h3>
-            <p>
+            <p data-aos="fade-down">
               — I love staying at home, but when I go out, it takes me a while
               to get home.
             </p>
@@ -106,27 +147,37 @@
       </section>
 
       <section class="my_works_container" id="my_works">
-        <div class="my_work_header">
+        <div class="my_work_header" data-aos="fade-down">
           <h4 class="text_header">MY WORKS</h4>
         </div>
         <div class="my_works">
-          <div class="image-container" aria-details="Nature">
+          <div class="image-container" aria-details="Nature" data-aos="fade-up">
             <img src="img/N7.jpg" alt="N1" />
             <h1>Nature</h1>
             <div class="aria-details"></div>
           </div>
-          <div class="image-container" aria-details="Sky">
+          <div
+            class="image-container"
+            aria-details="Sky"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <img src="img/sky1.jpg" alt="sky1" />
             <h1>Sky</h1>
           </div>
-          <div class="image-container" aria-details="Sky">
+          <div
+            class="image-container"
+            aria-details="Sky"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <img src="img/AM1.jpeg" alt="sky1" />
             <h1>Adventure</h1>
           </div>
         </div>
       </section>
       <section class="contact" id="contact">
-        <div class="context">
+        <div class="context" data-aos="fade-down">
           <h2>Contact Me</h2>
           <p>
             Hello and thank you for visiting my website! If you've come this
@@ -137,7 +188,7 @@
         </div>
         <div class="content_container">
           <div class="contactInfo">
-            <div class="box">
+            <div class="box" data-aos="fade-right">
               <div class="icon">
                 <i class="bx bxl-facebook-square"></i>
               </div>
@@ -146,7 +197,7 @@
                 <p>chng.gwyneth456</p>
               </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right" data-aos-delay="300">
               <div class="icon">
                 <i class="bx bxl-instagram-alt"></i>
               </div>
@@ -155,7 +206,7 @@
                 <p>chng.gwyneth456</p>
               </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-right" data-aos-delay="300">
               <div class="icon phone_icon">
                 <i class="bx bxs-phone"></i>
               </div>
@@ -165,11 +216,15 @@
               </div>
             </div>
           </div>
-          <div class="contact-img">
+          <div class="contact-img" data-aos="fade-left" data-aos-delay="500">
             <img src="img/footer-img-removebg-preview.png" alt="pic" />
           </div>
         </div>
       </section>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

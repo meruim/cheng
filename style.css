@@ -16,7 +16,7 @@
   --bg-color: black;
   --primary: #d04792;
   --secondary: #444;
-  --text-color: #f7f7f7;
+  --text-color: #fefefe;
   --main-color: white;
 }
 
@@ -188,8 +188,7 @@ header {
   font-size: 4.5rem;
   color: var(--primary);
 }
-.home-content p {
-  letter-spacing: 1px;
+.home-content q {
   font-size: 1rem;
 }
 /* eND OF HOME */
@@ -354,6 +353,7 @@ header {
   color: var(--primary);
 }
 .my_work_header .text_header {
+  font-size: 37px;
   font-weight: 600;
   margin-bottom: 3rem;
 }
