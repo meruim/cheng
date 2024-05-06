@@ -130,7 +130,7 @@
   }
   .about-section .about-left {
     margin-right: 10%;
-    margin-top: -2rem;
+    margin-top: 2rem;
   }
   .about-section .about-left img {
     width: 200px;
@@ -160,17 +160,23 @@
     right: -40%;
   }
 
-  .my_works_container {
-    justify-content: center;
-    align-items: center;
-  }
-  .my_works_container {
-    justify-content: center;
-    align-items: center;
+  .image-container img {
+    width: 60vw;
+    height: 40vh;
   }
 
-  .my_works_container .my_work_header .text_header {
-    font-size: 0.8rem;
+  .image-container h1 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .my_works_container {
+    justify-content: center;
+    align-items: center;
+  }
+  .my_works_container {
+    justify-content: center;
+    align-items: center;
   }
   .home-img img {
     width: 40vw;
