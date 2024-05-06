@@ -342,14 +342,21 @@ header {
 } */
 
 /* my works */
-.my_work_header {
-  text-align: center;
-}
 
 .my_works_container {
-  margin: 5rem;
+  margin: 1rem 5rem;
   padding: 5rem;
 }
+
+.my_works_container .my_work_header {
+  text-align: center;
+  color: var(--primary);
+}
+.my_work_header .text_header {
+  font-size: 37px;
+  font-weight: 600;
+}
+
 .my_work_header h4 {
   font-size: 4rem;
   margin-bottom: 3rem;
@@ -366,16 +373,19 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   align-items: center;
   text-align: center;
 }
 
 .image-container img {
-  width: 28vw;
+  width: 23vw;
   height: 400px;
   object-fit: cover;
   transition: transform 0.3s;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 .image-container h1 {
   margin-top: 1rem;
