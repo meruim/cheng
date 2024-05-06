@@ -349,16 +349,12 @@ header {
 }
 
 .my_works_container .my_work_header {
+  min-width: 50vw;
   text-align: center;
   color: var(--primary);
 }
 .my_work_header .text_header {
-  font-size: 37px;
   font-weight: 600;
-}
-
-.my_work_header h4 {
-  font-size: 4rem;
   margin-bottom: 3rem;
 }
 

@@ -80,6 +80,7 @@
 
   .about-right .expertise h3,
   .about-right .fun_fact h3 {
+    margin-left: 10%;
     font-size: 1.5rem;
   }
 
@@ -149,11 +150,6 @@
     width: 40vw;
     height: 25vh;
   }
-
-  .content_container {
-    display: flex;
-    flex-direction: column;
-  }
 }
 @media (max-width: 480px) {
   .navbar.open {
@@ -174,13 +170,26 @@
     justify-content: center;
     align-items: center;
   }
-  .my_works_container {
-    justify-content: center;
-    align-items: center;
+
+  .my_works_container .my_work_header {
+    margin-left: -1.8rem;
+    text-align: left;
+    width: 10vw;
+  }
+  .my_works_container .my_work_header .text_header {
+    font-size: 1rem;
   }
   .home-img img {
     width: 40vw;
     height: 25vh;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .content_container .contactInfo .box .phone_icon {
+    margin-right: 0.9rem;
   }
 }
 @media (max-width: 320px) {
@@ -188,13 +197,12 @@
     right: -130%;
   }
   .navbar.open {
-    right: -70%;
-  }
-  .home {
-    margin-top: -20rem;
-    margin-bottom: -20rem;
+    right: -60%;
   }
 
+  .home {
+    margin-top: -5rem;
+  }
   .home-content h1 {
     font-size: 2rem;
     color: var(--primary);
@@ -211,9 +219,5 @@
 
   .my_works_container .my_work_header {
     margin-left: -1.6rem;
-  }
-
-  .contact-img {
-    display: none;
   }
 }
