@@ -12,3 +12,15 @@ window.addEventListener("scroll", function () {
   // Call AOS.refresh() to force AOS to reinitialize and reanimate elements
   AOS.refresh();
 });
+
+function redirectToNature() {
+  window.location.href = "nature.html";
+}
+
+function redirectToSky() {
+  window.location.href = "sky.html";
+}
+
+function redirectToAdventure() {
+  window.location.href = "adventure.html";
+}
