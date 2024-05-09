@@ -673,6 +673,10 @@ form .btn button:hover {
 .text {
   color: var(--secondary);
 }
+.text a {
+  color: var(--secondary);
+  text-decoration: underline;
+}
 
 .text h3 {
   color: var(--primary);
